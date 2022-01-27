@@ -68,3 +68,11 @@
 | `git log --oneline`                        | View changes (briefly)         |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
+**#Push changes of files to the repo	**			
+
+| commands                          | `description`         |
+| --------------------------------- | --------------------- |
+| `git remote add origin [git_url]` |                       |
+| `git pull origin master`          | pull changes          |
+| `git push origin master`          | push work to the repo |
+

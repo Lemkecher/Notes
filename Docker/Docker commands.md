@@ -59,3 +59,17 @@
 | `docker volume rm [volume_name]`          | remove specific volume   |
 | `docker volume rm $(docker volume ls -q)` | remove all unused volume |
 
+
+
+**#Docker build**
+
+| command                                                  | description                                                  |
+| -------------------------------------------------------- | ------------------------------------------------------------ |
+| `sudo docker build -t [name_image] [path_of_dockerfile]` | The `docker build` command builds Docker images from a Dockerfile and a “context” |
+
+**#Docker run**
+
+| command                                                | description                      |
+| ------------------------------------------------------ | -------------------------------- |
+| `docker run -p [port_number:port_number] [image_name]` | Run a command in a new container |
+
